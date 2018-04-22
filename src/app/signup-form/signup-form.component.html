@@ -1,0 +1,46 @@
+<div class="container flex-center">
+  <div class="row flex-center pt-5 mt-3">
+    <div class="col-md-6 text-center text-md-left margins">
+      <div>
+        <h1 class="h1-responsive">Join the community! </h1>
+        <hr>
+        <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus quasi fuga nesciunt dolorum nulla
+          magnam veniam sapiente, fugiat! Commodi sequi non animi ea dolor molestiae iste.</h6>
+        <br>
+        <a class="btn btn-outline-black" mdbWavesEffect>Learn more</a>
+        <a class="btn btn-outline-black" mdbWavesEffect>Download the app
+          <i class="fa fa-android left right" aria-hidden="true"></i>
+          <i class="fa fa-apple left" aria-hidden="true"></i>
+          <i class="fa fa-windows" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="col-md-6 justify-content-center">
+      <div class="card card-body">
+        <form [formGroup]="registerForm">
+
+          <p class="h5 text-center mb-4">Sign up</p>
+
+          <div class="md-form">
+            <i class="fa fa-envelope prefix grey-text"></i>
+            <input type="text" formControlName="orangeFormEmail" id="orangeForm-email" class="form-control"
+                   mdbInputDirective>
+            <label for="orangeForm-email">Your email</label>
+          </div>
+
+          <div class="md-form">
+            <i class="fa fa-lock prefix grey-text"></i>
+            <input type="password" formControlName="orangeFormPass" id="orangeForm-pass" class="form-control"
+                   mdbInputDirective>
+            <label for="orangeForm-pass">Your password</label>
+          </div>
+
+          <div class="text-center">
+            <input class="btn btn-deep-orange waves-light" value="Sign up" mdbWavesEffect>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
